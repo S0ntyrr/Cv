@@ -1,19 +1,52 @@
-# CV Web (plantilla)
+# Portafolio Profesional - Santiago Rodriguez Salcedo
 
-Pequeña plantilla de CV en HTML/CSS/JS.
+Portafolio web personal orientado a empresas, reclutadores y equipos técnicos. Reúne mi perfil profesional, formación académica, habilidades, proyectos y experiencia laboral en una sola página clara y responsiva.
 
-Archivos creados:
-- index.html — página principal
-- css/styles.css — estilos
-- js/script.js — lógica (menú, audio, animaciones)
-- images/* — placeholders SVG (reemplazar con fotos reales)
+## Perfil
 
-Cómo usar:
-1. Abrir `index.html` en el navegador (doble clic o arrastrar al navegador).
-2. Reemplazar `images/profile.svg` por tu foto (preferible 600x600) o actualizar la ruta.
-3. En la sección de audio, usa el botón para seleccionar un archivo MP3/OGG desde tu dispositivo; luego pulsa `Reproducir`.
-4. Si quieres que rellene el contenido (datos personales, proyectos, imágenes y audio), envíame la información y lo hago por ti.
+Soy estudiante de Ingeniería de Software en la Universidad Manuela Beltrán, con interés en desarrollo web, análisis de datos y automatización. Tengo experiencia trabajando con Python, SQL, Java, TypeScript, React, Angular, Django, Flask, Power BI, Excel avanzado y AWS básico.
 
-Notas de diseño:
-- Responsive y navegable en móvil.
-- Animaciones leves con IntersectionObserver.
+Me destaco por el manejo de datos, elaboración de informes, atención orientada a resultados y disposición para aprender y trabajar en equipo.
+
+## Experiencia destacada
+
+- Anfitrión de Servicios - Educación Continua, Universidad del Rosario
+- Asesor de Ventas - SOFA en Corferias
+- DJ - Discotecas Griego, Culto y Tierra Bomba
+
+## Proyectos
+
+- Disko ERP: sistema ERP para negocios de entretenimiento con módulos de clientes, proveedores, inventario, empleados y panel de métricas.
+- FonoApp: aplicación móvil de apoyo a terapia fonoaudiológica con backend Django, autenticación JWT y despliegue en la nube.
+- OceanGoal: plataforma web para el reporte de daños a fauna y flora marina.
+
+## Formación
+
+- Ingeniería de Software - Universidad Manuela Beltrán, Bogotá D.C. - En curso
+- Bachiller Académico - Colegio Superior Americano - 2021
+- Inglés B2+ - Centro Electrónico de Idiomas
+
+## Contacto
+
+- Correo: Santyrap12@gmail.com
+- Teléfono: 3245677616
+- Ciudad: Bogotá D.C.
+- GitHub: https://github.com/S0ntyrr
+
+## Estructura del proyecto
+
+- `index.html`: contenido principal del portafolio
+- `css/styles.css`: estilos visuales
+- `js/script.js`: navegación, audio y animaciones
+- `images/`: recursos visuales
+- `audio/`: archivo de presentación de voz
+
+## Uso local
+
+1. Abrir `index.html` en el navegador.
+2. Si se publica en GitHub Pages, mantener la estructura de carpetas sin cambios.
+3. El audio de presentación se reproduce automáticamente cuando el navegador lo permite, y se detiene al finalizar.
+
+## Nota para empresas
+
+Este proyecto busca mostrar un perfil técnico y profesional práctico, con enfoque en aprendizaje continuo, desarrollo de soluciones útiles y capacidad para adaptarse a distintos entornos de trabajo.
