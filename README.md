@@ -29,24 +29,5 @@ Me destaco por el manejo de datos, elaboración de informes, atención orientada
 ## Contacto
 
 - Correo: Santyrap12@gmail.com
-- Teléfono: 3245677616
 - Ciudad: Bogotá D.C.
 - GitHub: https://github.com/S0ntyrr
-
-## Estructura del proyecto
-
-- `index.html`: contenido principal del portafolio
-- `css/styles.css`: estilos visuales
-- `js/script.js`: navegación, audio y animaciones
-- `images/`: recursos visuales
-- `audio/`: archivo de presentación de voz
-
-## Uso local
-
-1. Abrir `index.html` en el navegador.
-2. Si se publica en GitHub Pages, mantener la estructura de carpetas sin cambios.
-3. El audio de presentación se reproduce automáticamente cuando el navegador lo permite, y se detiene al finalizar.
-
-## Nota para empresas
-
-Este proyecto busca mostrar un perfil técnico y profesional práctico, con enfoque en aprendizaje continuo, desarrollo de soluciones útiles y capacidad para adaptarse a distintos entornos de trabajo.
