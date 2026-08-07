@@ -4,14 +4,46 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Portafolio Profesional - Santiago Rodriguez Salcedo</title>
+
+    <meta name="description" content="Portafolio profesional de Santiago Rodríguez Salcedo, estudiante de Ingeniería de Software en Bogotá. Proyectos en Java, Python, React Native, Django, AWS y análisis de datos.">
+    <meta name="author" content="Santiago Rodriguez Salcedo">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portafolio Profesional - Santiago Rodriguez Salcedo">
+    <meta property="og:description" content="Estudiante de Ingeniería de Software orientado a desarrollo backend, análisis de datos y aplicaciones full-stack.">
+    <meta property="og:image" content="images/pasted_file_TYcBAC_image.png">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Santiago Rodriguez Salcedo",
+      "jobTitle": "Estudiante de Ingeniería de Software",
+      "url": "https://s0ntyrr.github.io/Cv/",
+      "sameAs": [
+        "https://github.com/S0ntyrr",
+        "https://www.linkedin.com/in/santiago-rodriguez-salcedo-4548143b6"
+      ],
+      "email": "mailto:santyrap12@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogotá D.C.",
+        "addressCountry": "CO"
+      }
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href="#">Portafolio Profesional</a>
-        <button id="nav-toggle" aria-label="Abrir menú">☰</button>
+        <button id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">☰</button>
         <nav id="nav" class="nav">
           <a href="#about">Inicio</a>
           <a href="#academia">Academia</a>
@@ -24,14 +56,14 @@
     <main>
       <section id="about" class="hero container">
         <div class="hero-left">
-          <img src="images/pasted_file_TYcBAC_image.png" alt="Foto de perfil de Santiago Rodriguez Salcedo" class="profile-img">
+          <img src="images/pasted_file_TYcBAC_image.png" alt="Foto de perfil de Santiago Rodriguez Salcedo" class="profile-img" fetchpriority="high">
         </div>
         <div class="hero-right">
           <h1>Santiago Rodriguez Salcedo</h1>
           <p class="role">Estudiante de Ingeniería de Software | Bogotá D.C.</p>
           <p class="contact-line">3245677616 | Santyrap12@gmail.com</p>
           <h3>Perfil</h3>
-          <p>Portafolio profesional de un estudiante de Ingeniería de Software orientado a evidenciar formación académica, habilidades técnicas y proyectos de desarrollo. Tengo conocimientos en Python, SQL, Java y herramientas de analítica de datos como Power BI y Excel avanzado. Cuento con experiencia en manejo de datos, elaboración de informes y atención orientada a resultados. Tengo inglés B2+, pasión por la tecnología y capacidad para trabajar en equipo.</p>
+          <p>Portafolio profesional de un estudiante de Ingeniería de Software orientado a evidenciar formación académica, habilidades técnicas y proyectos de desarrollo. Tengo conocimientos en Python, SQL, Java y herramientas de analítica de datos como Power BI, Power Platform y Excel avanzado. Cuento con experiencia en manejo de datos, elaboración de informes y atención orientada a resultados. Tengo inglés B2+, pasión por la tecnología y capacidad para trabajar en equipo.</p>
 
           <h3>Objetivos profesionales</h3>
           <p>Fortalecer mi perfil como ingeniero de software mediante proyectos académicos y personales, integrando desarrollo web, análisis de datos y automatización para aportar soluciones útiles en contextos de transformación digital.</p>
@@ -68,10 +100,15 @@
           <div class="card">
             <h3>Cursos / Certificaciones</h3>
             <ul>
-              <li>Certificación laboral como intérprete auditivo y mezcla.</li>
-              <li>Inglés B2+ - Centro Electrónico de Idiomas (nivel 11).</li>
-              <li>Certificación: Introducción al Desarrollo de Back-End.</li>
-              <li>Manejo de paquete Office (Word, Excel, PowerPoint).</li>
+              <li>Amazon Junior Software Developer — Amazon (2026)</li>
+              <li>JavaScript Essentials 2 — Cisco (2026)</li>
+              <li>HPE Artificial Intelligence Essentials — Hewlett Packard Enterprise (2026)</li>
+              <li>Scrum Fundamentals — SCRUMStudy (2025)</li>
+              <li>CCNA: Switching, Routing, and Wireless Essentials — Cisco Networking Academy (2024)</li>
+              <li>Introducción al Desarrollo de Back-End — Meta (2024)</li>
+              <li>Inglés B2+ - Centro Electrónico de Idiomas (nivel 11)</li>
+              <li>Certificación laboral como intérprete auditivo y mezcla</li>
+              <li>Manejo de paquete Office (Word, Excel, PowerPoint)</li>
             </ul>
           </div>
         </div>
@@ -85,6 +122,7 @@
               <span class="skill">SQL</span>
               <span class="skill">TypeScript</span>
               <span class="skill">Power BI</span>
+              <span class="skill">Power Platform</span>
               <span class="skill">Excel avanzado</span>
               <span class="skill">React</span>
               <span class="skill">Angular</span>
@@ -125,7 +163,7 @@
               <span class="project-badge">Enterprise</span>
               <span class="project-code">ERP-01</span>
             </div>
-            <div class="project-panel project-panel--gold">
+            <div class="project-panel project-panel--gold" aria-hidden="true">
               <div class="project-panel__grid">
                 <span></span><span></span><span></span><span></span>
               </div>
@@ -134,13 +172,14 @@
             <p>Sistema ERP completo para gestión de negocios de entretenimiento con módulos de clientes, proveedores, inventario, empleados y panel de analytics con KPIs en tiempo real.</p>
             <p class="tech">Tecnologías: ASP.NET Core (C#), Entity Framework, SQL Server (T-SQL), Bootstrap</p>
             <p class="tech">Extras: control de acceso por roles, persistencia híbrida y backlog en CSV.</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/Disko-E-R-P" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
           </article>
           <article class="project-card">
             <div class="project-topline">
               <span class="project-badge">Mobile</span>
               <span class="project-code">APP-07</span>
             </div>
-            <div class="project-panel project-panel--teal">
+            <div class="project-panel project-panel--teal" aria-hidden="true">
               <div class="project-panel__line"></div>
               <div class="project-panel__line"></div>
               <div class="project-panel__line short"></div>
@@ -149,19 +188,65 @@
             <p>Aplicación móvil de apoyo a terapia fonoaudiológica con backend Django, autenticación JWT y soporte para múltiples roles y ejercicios por categorías.</p>
             <p class="tech">Tecnologías: React Native, Django, AWS (ECR, App Runner, S3, Route 53), MongoDB Atlas</p>
             <p class="tech">Extras: configuración multi-entorno, Dockerfile de producción y despliegue en la nube.</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/FonoApp" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
           </article>
           <article class="project-card">
             <div class="project-topline">
               <span class="project-badge">Web</span>
               <span class="project-code">ENV-12</span>
             </div>
-            <div class="project-panel project-panel--blue">
+            <div class="project-panel project-panel--blue" aria-hidden="true">
               <div class="project-panel__card"></div>
               <div class="project-panel__card compact"></div>
             </div>
             <h3>OceanGoal</h3>
             <p>Plataforma web para el reporte de daños a fauna y flora marina, enfocada en la recolección de datos de campo y la visualización de reportes ciudadanos.</p>
             <p class="tech">Tecnologías: HTML, CSS, JavaScript, PHP</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/OceanGoal" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-badge">Data</span>
+              <span class="project-code">DAT-03</span>
+            </div>
+            <div class="project-panel project-panel--teal" aria-hidden="true">
+              <div class="project-panel__line"></div>
+              <div class="project-panel__line"></div>
+              <div class="project-panel__line short"></div>
+            </div>
+            <h3>Auroproces</h3>
+            <p>Proyecto de análisis de datos y automatización de procesos, desarrollado como prueba técnica en formato notebook.</p>
+            <p class="tech">Tecnologías: Python</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/Auroproces" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-badge">Backend</span>
+              <span class="project-code">BCK-05</span>
+            </div>
+            <div class="project-panel project-panel--blue" aria-hidden="true">
+              <div class="project-panel__card"></div>
+              <div class="project-panel__card compact"></div>
+            </div>
+            <h3>Backend Dobble</h3>
+            <p>Aplicación backend en Java construida siguiendo principios de ingeniería de software y buenas prácticas de arquitectura.</p>
+            <p class="tech">Tecnologías: Java</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/Backend-Dobble" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-badge">Integration</span>
+              <span class="project-code">MID-09</span>
+            </div>
+            <div class="project-panel project-panel--gold" aria-hidden="true">
+              <div class="project-panel__grid">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <h3>Middleware</h3>
+            <p>Implementación de middleware para integración y comunicación entre servicios.</p>
+            <p class="tech">Tecnologías: JavaScript</p>
+            <a class="project-link" href="https://github.com/S0ntyrr/Middleware" target="_blank" rel="noopener noreferrer">Ver código en GitHub →</a>
           </article>
         </div>
       </section>
@@ -233,9 +318,6 @@
       <div class="container">Santiago Rodriguez Salcedo - Creado con HTML/CSS/JS</div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
   </body>
 </html>
-
-
-

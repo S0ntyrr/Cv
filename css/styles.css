@@ -58,7 +58,7 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial; margin:0; colo
 .language-note{margin:.9rem 0 0;color:var(--muted);line-height:1.55}
 .skill{background:rgba(255,255,255,0.03);padding:.35rem .6rem;border-radius:999px;color:var(--muted)}
 .projects{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-.project-card{background:linear-gradient(180deg, rgba(11,18,32,.96), rgba(11,18,32,.88));padding:1rem;border-radius:14px;border:1px solid rgba(255,255,255,0.05);box-shadow:0 12px 24px rgba(2,6,23,0.45)}
+.project-card{display:flex;flex-direction:column;background:linear-gradient(180deg, rgba(11,18,32,.96), rgba(11,18,32,.88));padding:1rem;border-radius:14px;border:1px solid rgba(255,255,255,0.05);box-shadow:0 12px 24px rgba(2,6,23,0.45)}
 .project-topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8rem;color:var(--muted);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
 .project-badge{padding:.25rem .55rem;border-radius:999px;background:rgba(110,231,183,.12);color:#baf7df;border:1px solid rgba(110,231,183,.18)}
 .project-code{color:#9fb2c7}
@@ -77,6 +77,8 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial; margin:0; colo
 .project-panel__card{position:absolute;left:1rem;right:1rem;bottom:1rem;height:44%;border-radius:12px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.10)}
 .project-panel__card.compact{left:auto;right:1rem;top:1rem;bottom:auto;width:34%;height:34%}
 .tech{color:var(--muted);font-size:.9rem}
+.project-link{display:inline-flex;align-items:center;gap:.4rem;align-self:flex-start;margin-top:1rem;padding:.5rem .9rem;border-radius:999px;border:1px solid rgba(110,231,183,.18);background:rgba(110,231,183,.08);color:#baf7df;text-decoration:none;font-size:.85rem;font-weight:600;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease}
+.project-link:hover{transform:translateY(-2px);background:rgba(110,231,183,.14);border-color:rgba(110,231,183,.4);box-shadow:0 10px 22px rgba(110,231,183,.15)}
 .site-footer{padding:1rem 0;text-align:center;color:var(--muted);margin-top:2rem}
 .experience-timeline{position:relative;display:flex;flex-direction:column;gap:1rem;margin-top:1rem;padding-left:1.5rem}
 .experience-timeline::before{content:"";position:absolute;left:.45rem;top:.5rem;bottom:.5rem;width:2px;background:linear-gradient(180deg, rgba(110,231,183,.65), rgba(110,231,183,0.08));}
@@ -127,4 +129,3 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial; margin:0; colo
   50%{box-shadow:0 0 8px rgba(110,231,183,.3)}
   100%{box-shadow:0 0 4px rgba(110,231,183,0)}
 }
-
